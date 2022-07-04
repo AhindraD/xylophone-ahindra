@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: hsl(216, 50%, 16%);
     font-family: 'Bitter', serif;
 }
 
@@ -28,9 +28,13 @@ body {
     border-radius: 20px;
     border: none;
     font-size: 80px;
-    color: rgba(255, 255, 255, 0.521);
+    color: rgba(255, 255, 255, 0.703);
     font-family: 'Bitter', serif;
     font-weight: lighter;
+}
+
+.bar:hover {
+    box-shadow: 3px 3px 20px 15px #ff00c3;
 }
 
 .c1 {
@@ -70,4 +74,46 @@ body {
 .c2 {
     background-color: #ee534f;
     height: 40%;
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+
+    .bar {
+        width: 90%;
+        height: 65px;
+        font-size: 35px;
+    }
+    .d {
+        width: 70%;
+    }
+
+    .e {
+        width: 65%;
+    }
+
+    .f {
+        width: 60%;
+    }
+
+    .g {
+        width: 55%;
+    }
+
+    .a {
+        width: 50%;
+    }
+
+    .b {
+        width: 45%;
+    }
+
+    .c2 {
+        width: 40%;
+    }
 }
