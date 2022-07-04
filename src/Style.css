@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Bitter', serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar {
+    width: 120px;
+    height: 80%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.521);
+    font-family: 'Bitter', serif;
+    font-weight: lighter;
+}
+
+.c1 {
+    background-color: #ee534f;
+}
+
+.d {
+    background-color: #fea726;
+    height: 70%;
+}
+
+.e {
+    background-color: #ffc927;
+    height: 65%;
+}
+
+.f {
+    background-color: #66bb69;
+    height: 60%;
+}
+
+.g {
+    background-color: #25a69a;
+    height: 55%;
+}
+
+.a {
+    background-color: #2cb5f6;
+    height: 50%;
+}
+
+.b {
+    background-color: #7e57c2;
+    height: 45%;
+}
+
+.c2 {
+    background-color: #ee534f;
+    height: 40%;
+}
