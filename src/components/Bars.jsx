@@ -54,14 +54,14 @@ function Bars(props) {
 
     return (
         <main className="container">
-            <button className="bar c1" onMouseMove={start1}>C</button>
-            <button className="bar d" onMouseMove={start2}>D</button>
-            <button className="bar e" onMouseMove={start3}>E</button>
-            <button className="bar f" onMouseMove={start4}>F</button>
-            <button className="bar g" onMouseMove={start5}>G</button>
-            <button className="bar a" onMouseMove={start6}>A</button>
-            <button className="bar b" onMouseMove={start7}>B</button>
-            <button className="bar c2" onMouseMove={start8}>C</button>
+            <button className="bar c1" onMouseEnter={start1}>C</button>
+            <button className="bar d" onMouseEnter={start2}>D</button>
+            <button className="bar e" onMouseEnter={start3}>E</button>
+            <button className="bar f" onMouseEnter={start4}>F</button>
+            <button className="bar g" onMouseEnter={start5}>G</button>
+            <button className="bar a" onMouseEnter={start6}>A</button>
+            <button className="bar b" onMouseEnter={start7}>B</button>
+            <button className="bar c2" onMouseEnter={start8}>C</button>
         </main>
     )
 }
